@@ -1,0 +1,28 @@
+
+/* here box2 is the chhild of box 1 , abd we are using unit "%",it is used i.e , if parent that is box1 height is 200px and we want to give box2's height in respect of box1 ,we will just use % , like - %0% /20% etc. */
+/* em uses  */
+/* it is used for text related commands, font size of the parent,font size elements like width(it self like in box2 only ,2em means font size of double of box2). example: if parent font size is 10px , and child we set as 2em that means child one snhould have double of parents text , similarly if we give 0.5 that means half of parents text .*/
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+#box2 {
+    height: 50%;
+    width: 80%;
+    background-color: gray;
+    margin-left: 20%;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
